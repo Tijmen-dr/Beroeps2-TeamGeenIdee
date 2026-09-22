@@ -151,7 +151,7 @@ Won’t
 
 
 
-2.3 Wat valt buiten de opdracht? (Afbakening) 
+**2.3 Wat valt buiten de opdracht? (Afbakening)** 
 
 Geef hier aan je wat je bewust niet gaat maken of ontwikkelen binnen dit project. Zo is het voor iedereen duidelijk wat er wél wordt opgeleverd en wat niet. 
 
@@ -167,19 +167,19 @@ Je hoeft dit niet uitgebreid uit te leggen — een duidelijke opsomming is genoe
 
  
 
-3. Functioneel ontwerp (FO) 
+## 3. Functioneel ontwerp (FO) 
 
 In dit deel laat je zien hoe de gebruiker door de website navigeert en wat er allemaal gebeurt als iemand iets aanklikt of gebruikt. Je werkt dit uit in drie onderdelen: een use case diagram, een flowchart en wireframes. Voeg hier afbeeldingen of screenshots van deze onderdelen toe. Als je ze apart hebt uitgewerkt, verwijs dan duidelijk naar de bijlagen. 
 
-3.1 Use Case Diagram 
+**3.1 Use Case Diagram** 
 
 Hier geef je weer wie de gebruikers zijn en wat ze kunnen doen op de site. Bijvoorbeeld: een bezoeker die op “meer info” klikt of een quiz start. Je maakt dit overzichtelijk in een schema met pijlen. 
 
-3.2 Sitemap 
+**3.2 Sitemap** 
 
 Een schema dat de opbouw van je site laat zien. Je toont hoe de verschillende pagina’s en onderdelen met elkaar verbonden zijn. Zie het als de ‘plattegrond’ van je website. 
 
-3.3 Wireframes 
+**3.3 Wireframes** 
 
 Dit zijn simpele schetsen van je pagina’s. Je laat zien waar bijvoorbeeld knoppen, plaatjes en teksten komen. Het is een soort zwart-wit ontwerp zonder echte content of kleur — puur om de indeling duidelijk te maken. 
 
@@ -191,7 +191,7 @@ Voeg hier afbeeldingen of screenshots toe van de flowchart, het use case diagram
 
  
 
-4. Technisch ontwerp 
+## 4. Technisch ontwerp 
 
 In dit onderdeel beschrijf je hoe jullie het project technisch aanpakken. Je legt kort uit welke programmeertalen en tools je gebruikt, op welke apparaten en browsers je test en hoe je zorgt voor veiligheid en back-ups. 
 
@@ -208,7 +208,7 @@ Beveiliging: Is het project offline? Moet je rekening houden met veiligheid, of 
 Back-up: Waar sla je je werk op en hoe voorkom je dat je iets kwijtraakt? (Bijv. GitHub, OneDrive) 
 
 
-5. Oplevering
+## 5. Oplevering
 
 In deze paragraaf leg je uit hoe en wanneer het eindproduct wordt opgeleverd. Geef aan waar de opdrachtgever het werk kan vinden, wat er precies wordt opgeleverd en of er nog iets geregeld moet worden na de oplevering. 
 

@@ -1,0 +1,7 @@
+# Doelgroepanalyse 
+
+Onze doelgroep zijn jongeren. We zijn voornamelijk gericht op Generatie Z. Jongeren koken steeds minder vaak zelf en eten daardoor steeds ongezonder. Dit komt door verschillende factoren, zoals een drukke levensstijl, het gemak van afhaal- en bezorgdiensten en een gebrek aan kookvaardigheden of interesse in koken. Dit blijkt uit onderzoek van HAK en het Voedingscentrum. 
+
+Deze ‘ontkoking’ heeft verschillende negatieve gevolgen. Ten eerste leidt het vaak tot een minder gezond eetpatroon. Kant-en-klare maaltijden en fastfood bevatten vaak meer calorieën, verzadigde vetten, suikers en zout, wat kan bijdragen aan gezondheidsproblemen zoals obesitas, diabetes en hart- en vaatziekten. Bovendien kan de afhankelijkheid van gemaksvoedsel leiden tot hogere uitgaven, wat vooral voor jongeren met een beperkt budget problematisch kan zijn. Daarnaast gaat de sociale en culturele waarde van samen koken en eten verloren. Het aanpakken van de ontkoking is belangrijk om jongeren bewust te maken van gezonde voeding, hun kookvaardigheden te verbeteren en de waarde van samen eten te herontdekken. 
+
+Om de ontkoking tegen te gaan, willen we als team een digitaal platform ontwikkelen dat jongeren uit Generatie Z stimuleert en inspireert om de keuken in te gaan en zelf gezond en lekker eten te bereiden. We willen ons meer richten op de redenen waarom mensen minder koken, bijvoorbeeld omdat het te veel tijd kost. Met ons online platform willen we ervoor zorgen dat koken makkelijker en minder tijdrovend wordt. 
