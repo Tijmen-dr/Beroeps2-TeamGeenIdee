@@ -1,7 +1,33 @@
-# Doelgroepanalyse 
+# Fase 1: Empathize (Begrijp de gebruiker)
+
+  
+
+  
+
+## 1. Doelgroeponderzoek
 
 Onze doelgroep zijn de jongeren, en dan vooral gericht op Generatie Z. Jongeren koken steeds minder vaak zelf en eten daardoor steeds ongezonder. Dit komt door verschillende factoren, zoals een drukke levensstijl, het gemak van afhaal- en bezorgdiensten en de vermindering van kookvaardigheden of interesse in koken. Dit blijkt uit onderzoek van HAK en het Voedingscentrum. 
 
 Deze ‘ontkoking’ heeft verschillende negatieve gevolgen. Ten eerste leidt het vaak tot een minder gezond eetpatroon. Kant-en-klare maaltijden en fastfood bevatten vaak meer calorieën, vetten, suikers en zout, wat kan bijdragen aan gezondheidsproblemen zoals overgewicht, diabetes en hartziektes. Daarnaast kan de afhankelijkheid van bestel services en kant- en klare maaltijden leiden tot hogere uitgaven, wat vooral voor jongeren een probleem kan zijn, sinds de meeste jongeren niet snel aan geld kunnen komen. Het aanpakken van de ontkoking is belangrijk om jongeren bewust te maken van gezonde voeding, hun kookvaardigheden te verbeteren en het leren sparen van geld. 
 
 Om de ontkoking tegen te gaan, willen we als team een digitaal platform ontwikkelen dat jongeren uit Generatie Z stimuleert en inspireert om de keuken in te gaan en zelf gezond en lekker eten te bereiden. We willen ons meer richten op de redenen waarom mensen minder koken, bijvoorbeeld omdat het te veel tijd kost. Met ons online platform willen we ervoor zorgen dat koken makkelijker wordt en minder tijd in neemt. 
+
+  
+
+  
+
+## 2. Empathy Map (Visueel)
+
+  
+
+![Empathy Map](./assets/empathy-map-v1.png)
+
+  
+
+  
+
+## 3. Conclusie
+
+  
+
+*Wat is het belangrijkste inzicht dat we meenemen naar de Define fase?*

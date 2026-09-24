@@ -91,6 +91,10 @@ We beginnen als eerst met het maken van wireframes zodat we een idee hebben wat 
 
 Het doel dat ermee moet bereikt worden, is het stimuleren van jongeren om zelf te gaan koken.  
 
+
+
+
+
 ## 2. Projectinhoud 
 
 **2.1 Wat wordt er opgeleverd? (Eindproduct)** 
@@ -159,14 +163,10 @@ Denk hierbij aan functies, onderdelen of platforms die buiten de opdracht vallen
 
 Je hoeft dit niet uitgebreid uit te leggen — een duidelijke opsomming is genoeg. 
 
- 
 
  
 
  
-
- 
-
 ## 3. Functioneel ontwerp (FO) 
 
 In dit deel laat je zien hoe de gebruiker door de website navigeert en wat er allemaal gebeurt als iemand iets aanklikt of gebruikt. Je werkt dit uit in drie onderdelen: een use case diagram, een flowchart en wireframes. Voeg hier afbeeldingen of screenshots van deze onderdelen toe. Als je ze apart hebt uitgewerkt, verwijs dan duidelijk naar de bijlagen. 
@@ -184,12 +184,10 @@ Een schema dat de opbouw van je site laat zien. Je toont hoe de verschillende pa
 Dit zijn simpele schetsen van je pagina’s. Je laat zien waar bijvoorbeeld knoppen, plaatjes en teksten komen. Het is een soort zwart-wit ontwerp zonder echte content of kleur — puur om de indeling duidelijk te maken. 
 
 Voeg hier afbeeldingen of screenshots toe van de flowchart, het use case diagram en de wireframes. Of verwijs naar bijlagen als je ze apart hebt toegevoegd. 
-
  
 
  
 
- 
 
 ## 4. Technisch ontwerp 
 
