@@ -113,8 +113,8 @@ Applicatie moet dynamisch zijn en in ieder geval de volgende pagina’s bevatten
 • Landingspagina die bezoekers verwelkomt, de weg wijst en stimuleert om verder te gaan. \
 • De overzichtspagina. Het overzicht van gerechten binnen de gekozen categorie. \
 • Een detailpagina. Dit is waar de gerechten in detail worden getoond. \
-• Invoerpagina. De plek waar gebruikers recepten en ingrediënten kunnen toevoegen, aanpassen en/of verwijderen. \ 
-Om dit te kunnen doen, moeten gebruikers een account hebben en ingelogd zijn. Als een gebruiker nog geen account heeft, moet deze zich kunnen registreren. \
+• Invoerpagina. De plek waar gebruikers recepten en ingrediënten kunnen toevoegen, aanpassen en/of verwijderen. 
+Om dit te kunnen doen, moeten gebruikers een account hebben en ingelogd zijn. Als een gebruiker nog geen account heeft, moet deze zich kunnen registreren. 
 
 **Gebruikseisen**:
 De applicatie moet gebruiksvriendelijk en overzichtelijk zijn voor jongeren, voornamelijk voor Generatie Z. De website moet responsive zijn en goed werken op verschillende apparaten, zoals een computer, laptop, tablet en telefoon. \
@@ -122,7 +122,7 @@ Gebruikers moeten eenvoudig door de website kunnen navigeren en snel de informat
 Ook moet de website snel laden en moeten pagina’s en zoekresultaten snel worden weergegeven, zodat gebruikers niet lang hoeven te wachten. \
 De knoppen, menu’s en zoekbalk moeten duidelijk zichtbaar en makkelijk te gebruiken zijn. 
 De website moet zowel met een muis en toetsenbord als met een touchscreen goed te bedienen zijn. Daarnaast moeten gebruikers eenvoudig recepten kunnen bekijken, toevoegen, aanpassen en verwijderen. Om recepten toe te voegen, aan te passen of te verwijderen, moeten gebruikers ingelogd zijn of eerst een account aanmaken. \
-De vormgeving moet modern, aantrekkelijk en overzichtelijk zijn en aansluiten bij de doelgroep van Generatie Z. De applicatie moet daarnaast daadwerkelijk verbonden zijn met een database, zodat recepten en gebruikersgegevens kunnen worden opgeslagen, opgehaald en aangepast. \
+De vormgeving moet modern, aantrekkelijk en overzichtelijk zijn en aansluiten bij de doelgroep van Generatie Z. De applicatie moet daarnaast daadwerkelijk verbonden zijn met een database, zodat recepten en gebruikersgegevens kunnen worden opgeslagen, opgehaald en aangepast. 
 
 Ontwerpeisen: 
 
@@ -147,24 +147,24 @@ Won’t: dit doen we expres niet binnen dit project.
 
  
 
-**Must**: \ 
+**Must**: 
 • Log in systeem \
 • Database koppeling \
 • CRUD-Functionaliteit \
 • Zoek/Filter functie \
-• Responsive (media queries) \
+• Responsive (media queries) 
 
 **Should**: \
-• Share optie \
+• Share optie 
 
 **Could**: \
 • Stap-voor-stap recepten kunnen lezen/bereiden \
 • Favorieten systeem \
-• Omrekenen van porties op basis van hoeveelheid mensen \
+• Omrekenen van porties op basis van hoeveelheid mensen 
 
 **Won’t**: \
 • Bestelsysteem \
-• Mobiele app ervan maken \
+• Mobiele app ervan maken 
 
 
 
