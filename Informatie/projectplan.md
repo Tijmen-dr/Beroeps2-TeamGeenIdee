@@ -113,7 +113,7 @@ Applicatie moet dynamisch zijn en in ieder geval de volgende pagina’s bevatten
 • Landingspagina die bezoekers verwelkomt, de weg wijst en stimuleert om verder te gaan. \
 • De overzichtspagina. Het overzicht van gerechten binnen de gekozen categorie. \
 • Een detailpagina. Dit is waar de gerechten in detail worden getoond. \
-• Invoerpagina. De plek waar gebruikers recepten en ingrediënten kunnen toevoegen, aanpassen en/of verwijderen. 
+• Invoerpagina. De plek waar gebruikers recepten en ingrediënten kunnen toevoegen, aanpassen en/of verwijderen. \
 Om dit te kunnen doen, moeten gebruikers een account hebben en ingelogd zijn. Als een gebruiker nog geen account heeft, moet deze zich kunnen registreren. 
 
 **Gebruikseisen**:
@@ -147,7 +147,7 @@ Won’t: dit doen we expres niet binnen dit project.
 
  
 
-**Must**: 
+**Must**: \
 • Log in systeem \
 • Database koppeling \
 • CRUD-Functionaliteit \
