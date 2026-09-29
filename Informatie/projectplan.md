@@ -108,19 +108,21 @@ Daarnaast maken we een module komen waar gebruikers zich kunnen registreren en i
  
 **2.2 Eisen en wensen (Programma van eisen)** 
 
-Beschrijf hier de eisen en wensen van het product, opgedeeld in functionele, gebruiks- en ontwerpeisen. 
+**Functionele eisen**: 
+Applicatie moet dynamisch zijn en in ieder geval de volgende pagina’s bevatten: \
+• Landingspagina die bezoekers verwelkomt, de weg wijst en stimuleert om verder te gaan. \
+• De overzichtspagina. Het overzicht van gerechten binnen de gekozen categorie. \
+• Een detailpagina. Dit is waar de gerechten in detail worden getoond. \
+• Invoerpagina. De plek waar gebruikers recepten en ingrediënten kunnen toevoegen, aanpassen en/of verwijderen. \
+Om dit te kunnen doen, moeten gebruikers een account hebben en ingelogd zijn. Als een gebruiker nog geen account heeft, moet deze zich kunnen registreren. 
 
-Gebruik daarna de MoSCoW-methode om prioriteiten te stellen. 
-
-Functionele eisen: 
-
-Wat moet de website, app of tool doen? Denk aan knoppen, navigatie, inhoud per pagina, functionaliteiten. 
-Bijvoorbeeld: de gebruiker moet op elke pagina kunnen doorklikken, er komt per game een quiz, etc. 
-
-Gebruikseisen: 
-
-Hoe moet het product gebruikt worden? Denk aan gebruiksgemak, bediening, apparaten, snelheid. 
-Bijvoorbeeld: moet fullscreen werken, zonder scrollen, duidelijk binnen 5 seconden, werkt zonder muis of toetsenbord. 
+**Gebruikseisen**:
+De applicatie moet gebruiksvriendelijk en overzichtelijk zijn voor jongeren, voornamelijk voor Generatie Z. De website moet responsive zijn en goed werken op verschillende apparaten, zoals een computer, laptop, tablet en telefoon. \
+Gebruikers moeten eenvoudig door de website kunnen navigeren en snel de informatie kunnen vinden die ze zoeken. Het moet niet lang duren voordat een gebruiker een recept, categorie of andere gewenste informatie heeft gevonden. Daarom moet de navigatie duidelijk zijn en moet er een goede zoekfunctie aanwezig zijn waarmee gebruikers snel recepten kunnen vinden op basis van ingrediënten of het type gerecht. \
+Ook moet de website snel laden en moeten pagina’s en zoekresultaten snel worden weergegeven, zodat gebruikers niet lang hoeven te wachten. \
+De knoppen, menu’s en zoekbalk moeten duidelijk zichtbaar en makkelijk te gebruiken zijn. 
+De website moet zowel met een muis en toetsenbord als met een touchscreen goed te bedienen zijn. Daarnaast moeten gebruikers eenvoudig recepten kunnen bekijken, toevoegen, aanpassen en verwijderen. Om recepten toe te voegen, aan te passen of te verwijderen, moeten gebruikers ingelogd zijn of eerst een account aanmaken. \
+De vormgeving moet modern, aantrekkelijk en overzichtelijk zijn en aansluiten bij de doelgroep van Generatie Z. De applicatie moet daarnaast daadwerkelijk verbonden zijn met een database, zodat recepten en gebruikersgegevens kunnen worden opgeslagen, opgehaald en aangepast. 
 
 Ontwerpeisen: 
 
@@ -145,23 +147,40 @@ Won’t: dit doen we expres niet binnen dit project.
 
  
 
-Must 
+**Must**: \
+• Log in systeem \
+• Database koppeling \
+• CRUD-Functionaliteit \
+• Zoek/Filter functie \
+• Responsive (media queries) 
 
-Should 
+**Should**: \
+• Share optie 
 
-Could 
+**Could**: \
+• Stap-voor-stap recepten kunnen lezen/bereiden \
+• Favorieten systeem \
+• Omrekenen van porties op basis van hoeveelheid mensen 
 
-Won’t 
+**Won’t**: \
+• Bestelsysteem \
+• Mobiele app ervan maken 
 
 
 
 **2.3 Wat valt buiten de opdracht? (Afbakening)** 
 
-Geef hier aan je wat je bewust niet gaat maken of ontwikkelen binnen dit project. Zo is het voor iedereen duidelijk wat er wél wordt opgeleverd en wat niet. 
+De volgende onderdelen worden bewust niet ontwikkeld binnen dit project:
 
-Denk hierbij aan functies, onderdelen of platforms die buiten de opdracht vallen, bijvoorbeeld omdat ze te veel tijd kosten, technisch te ingewikkeld zijn of simpelweg niet nodig zijn voor dit project. 
+• Native apps: Geen losse iOS- of Android-applicaties; het platform wordt uitsluitend als responsive website gebouwd.  
 
-Je hoeft dit niet uitgebreid uit te leggen — een duidelijke opsomming is genoeg. 
+• Bestelsystemen: Geen koppeling met supermarkten of bezorgdiensten voor het bestellen van ingrediënten. 
+
+• Video-editing & hosting: Geen ingebouwde videospeler of opnametools (alleen embedded links naar TikTok/Instagram).  
+
+• Voedingswaarden-berekening: Geen geautomatiseerde analyse van calorieën, macro's of allergenen. 
+
+• Betalings- en chatsystemen: Geen abonnementsvormen, premium functies of onderlinge privéberichten. 
 
 
  
