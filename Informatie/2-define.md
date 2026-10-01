@@ -8,7 +8,7 @@
 
   
 
-*[Doelgroep] heeft een manier nodig om [behoefte] omdat [inzicht uit empathize fase].*
+De jongeren, vooral van generatie Z, moeten meer zelfstandig gaan koken. Ze doen het te weinig of zijn er gewoon te lui voor. Dit komt door de eenvoudigheid van bestellen en kant-en-klare maaltijden. Het leven op het veld van eten krijgen, wordt te makkelijk gemaakt voor de jongere generaties.
 
   
 
@@ -18,32 +18,21 @@
 
   
 
-**Must Haves:**
+**Must haves**: \
+• Log in systeem \
+• Database koppeling \
+• CRUD-Functionaliteit \
+• Zoek/Filter functie \
+• Responsive (media queries) 
 
-  
+**Should have**: \
+• Share optie 
 
-* De app moet responsive zijn (Mobile First).
+**Could have**: \
+• Stap-voor-stap recepten kunnen lezen/bereiden \
+• Favorieten systeem \
+• Omrekenen van porties op basis van hoeveelheid mensen 
 
-  
-
-* [Voeg toe...]
-
-  
-
-  
-
-**Should Haves:**
-
-  
-
-* [Voeg toe...]
-
-  
-
-  
-
-**Won't Haves (Buiten scope):**
-
-  
-
-* Integratie met echte supermarkt API's.
+**Won’t have**: \
+• Bestelsysteem \
+• Mobiele app ervan maken 
