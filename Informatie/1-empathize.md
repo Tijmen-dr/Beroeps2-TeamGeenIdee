@@ -31,3 +31,7 @@ Om de ontkoking tegen te gaan, willen we als team een digitaal platform ontwikke
   
 
 *Wat is het belangrijkste inzicht dat we meenemen naar de Define fase?*
+
+Het belangrijkste inzicht dat wij meenemen naar de Define fase is dat jongeren wel gezonder en zelfgemaakt zouden willen eten, maar al dat koken kost hun gewoon teveel tijd of moeite. Daardoor lijkt zelf koken op een te groot gedoe. Hierdoor kiezen jongeren veel makkelijker voor bestellen omdat het een snel moeiteloos optie is.
+
+Wij willen niet alleen jongeren forseren of stimuleren te koken, maar laten zien dat zelf koken ook gewoon veel sneller, makkelijker en lekkerder is.
