@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptendetails</title>
+    <link rel="stylesheet" href="../CSS/receptendetails.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+         <a href="homepage.html"> <img src="../images/logoPlaceholder.png" alt="websiteLogo"></a>
+         <button class="inlogButton" onclick="location.href='inloggen.html'">Inloggen</button>
+    </div>
+
+    <div class="categorieen">
+        <div class="navButton" onclick="location.href='homepage.html'">Placeholder</div>
+        <div class="navButton" onclick="location.href='recepten.html'">Recepten</div>
+        <div class="navButton noRightBorder" onclick="location.href='homepage.html'">Placeholder</div>
+    </div>
+    </header>
+
+    <main class="detailMain">
+    <section class="recipeDetail">
+      <div class="recipeImageWrap">
+        <img id="recipeImage" src="../images/placeholder.png" alt="Recept foto">
+      </div>
+
+      <div class="recipeInfo">
+        <p class="recipeTag">Recept</p>
+        <h1 id="recipeTitle">Recept titel</h1>
+
+        <div class="recipeMeta">
+          <span id="recipeTime">25 min</span>
+          <span id="recipeDifficulty">Makkelijk</span>
+        </div>
+
+        <p id="recipeDescription">Korte beschrijving van het recept.</p>
+        <button class="detailButton" onclick="location.href='recepten.html'">Terug naar recepten</button>
+      </div>
+    </section>
+
+    <section class="recipeContent">
+      <div class="contentCard">
+        <h2>Ingredienten</h2>
+        <ul id="ingredientList"></ul>
+      </div>
+
+      <div class="contentCard">
+        <h2>Bereidingswijze</h2>
+        <ol id="stepList"></ol>
+      </div>
+    </section>
+  </main>
+
+    <footer>
+        <div class="footer">
+            <p>© 2026 Team GeenIdee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../JS/receptendetails.js"></script>
+</body>
+</html>
