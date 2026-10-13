@@ -20,16 +20,26 @@
     <main>
         <div class="inlogForm">
             <h1>Inloggen</h1>
-            <form action="verwerk_inloggen.php" method="post">
-                <label for="username">Gebruikersnaam:</label>
-                <input type="text" id="username" name="username" required><br><br>
+            <form  id="inlogForm" action="verwerk_inloggen.php" method="post">
+                <div>
+                    <label for="username">Gebruikersnaam:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
 
-                <label for="password">Wachtwoord:</label>
-                <input type="password" id="password" name="password" required><br><br>
+                <div>
+                    <label for="password">Wachtwoord:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
 
-                <input type="submit" value="Inloggen">
+                <div>
+                    <p>Geen account?</p>
+                    <a href="registreren.html">Registreer hier</a>
+                </div>
+            
+                    <input type="submit" value="Inloggen">
             </form>
         </div>
+    </main>
      <footer>
         <div class="footer">
             <p>© 2026 Team GeenIdee. All rights reserved.</p>

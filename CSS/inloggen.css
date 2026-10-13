@@ -1,21 +1,24 @@
-
-html ,body{
-margin: 0;
-padding: 0;     
-width: 100%;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-body{
-      min-height: 100vh;
+
+body {
+    min-height: 100vh;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     overflow-x: hidden;
-}   
-header{
+}
+
+header {
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 100;
 }
-.header{
+
+.header {
     background-color: #93a354;
     width: 100%;
     min-height: 85px;
@@ -23,27 +26,96 @@ header{
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
 }
-.header img{
+
+.header img {
     height: 85px;
 }
 
-.header a{
+.header a {
     grid-column: 2;
 }
 
-#featuredHeader{
+#featuredHeader {
     text-align: center;
-    color:white;
+    color: white;
     text-decoration: underline;
     font-size: 40px;
 }
-.footer{
+
+.footer {
     background-color: #93a354;
     width: 100%;
-     min-height: 85px;
-    margin-top:  819px;
+    min-height: 85px;
+    margin-top: auto;
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
 }
 
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+#inlogForm {
+    width: 30vw;
+    min-width: 500px;
+    height: 50vh;
+    min-height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    border: 2px solid #93a354;
+    justify-content: start;
+    align-items: center;
+}
+
+.inlogForm h1 {
+    color: #93a354;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.inlogForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+
+}
+/* 
+.inlogForm > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 1 / span 4;
+} */
+
+.inlogForm input[type="text"],
+.inlogForm input[type="password"] {
+    width: 340px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.inlogform from div {margin-bottom: 20px;}
+
+.inlogForm input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
