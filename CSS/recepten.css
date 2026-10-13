@@ -95,20 +95,75 @@ nav{
     margin-top: 146px;
 }
 .sidebar {
-    width: 220px;
+    width: 250px;
     height: 100vh;
-    background-color: #222;
+    background-color: #110e1e;
     padding-top: 20px;
 }
 
-.sidebar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    transition: background 0.2s;
+.sidebar h1, h2, input{
+    margin-left: 20px;
 }
 
-.sidebar a:hover {
-    background-color: #444;
+.recepten{
+    margin-left: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    color: rgba(255, 255, 255, 1)
+}
+
+.recept{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(147, 163, 84, 0.85);
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(193, 213, 109, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recept:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(193, 213, 109, 0.7);
+    background-color: rgba(181, 200, 102, 0.95);
+}
+
+.recept img{
+    height: auto;
+    border-right: 2px solid #110e1e;
+    border-bottom: 2px solid #110e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(38, 40, 33, 0.5);
+}
+
+#receptHeader{
+    margin-top: 25px;
+    margin-left: 275px
+}
+.receptInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: -25px;
+}
+
+.receptInfo p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.categorie {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
+    align-self: end;
+    margin: 0;
+}
+
+.imgAndTitle h3{
+    margin-left: 10px;
 }
