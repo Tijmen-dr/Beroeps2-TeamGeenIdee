@@ -26,6 +26,17 @@ header{
     grid-column: 2;
 }
 
+.footer {
+    background-color: #93a354;
+    width: 100%;
+    min-height: 85px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .inlogButton {
     grid-column: 3;
     justify-self: end;
