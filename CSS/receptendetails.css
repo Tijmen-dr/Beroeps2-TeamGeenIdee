@@ -57,7 +57,7 @@ header{
     text-align: center;
     font-family: Impact, sans-serif;
     color:white;
-    text-shadow: 2px 0 #bacf69,
+    text-shadow: 2px 0 #bacf69;
 
 }
 
@@ -86,4 +86,16 @@ header{
     transform: translateY(2px);
     box-shadow: 0 2px 0 #66713a;
 }
+
+.detailMain{max-width:1000px;margin:24px auto 34px;padding:0 16px}
+.recipeDetail,.contentCard{padding:16px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(0,0,0,.35)}
+.recipeDetail{display:grid;grid-template-columns:1fr 1.2fr;gap:18px;align-items:start}
+#recipeImage{display:block;width:100%;max-height:340px;object-fit:cover;border-radius:8px;border:1px solid rgba(255,255,255,.12)}
+.recipeTag{display:inline-block;margin:0 0 6px;padding:4px 9px;border-radius:8px;background:#bacf69;color:#1f2a14;font-size:12px;font-weight:700}
+#recipeTitle{margin:0 0 8px;line-height:1.2}.recipeMeta{margin-bottom:12px;color:#e9f3c6;font-weight:600}#recipeDescription{margin:0 0 14px;line-height:1.5}
+.detailButton{padding:10px 14px;border:1px solid rgba(255,255,255,.2);border-radius:8px;background:#bacf69;color:#243116;font-weight:700;cursor:pointer;transition:background-color .15s}.detailButton:hover{background:#d9f17b}
+.recipeContent{display:grid;gap:12px;margin-top:16px}.contentCard h2{margin:0;line-height:1.55;font-size:20px}
+#ingredientList,#stepList{margin:12px 0 0;padding-left:22px;line-height:1.6}
+
+@media (max-width:850px){.recipeDetail{grid-template-columns:1fr}#recipeImage{max-height:280px}.contentCard h2{font-size:18px}}
 
