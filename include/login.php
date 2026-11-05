@@ -9,7 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = trim($_POST['password']);
 
     if (!empty($username) && !empty($password)) {
+<<<<<<< HEAD
         $sql = "SELECT id, username, password FROM account WHERE username = ?";
+=======
+        $sql = "SELECT id, username, password FROM users WHERE username = ?";
+>>>>>>> 496602a618a5f9ab4793d91ce15abd3a1c403d70
         
         if ($stmt = mysqli_prepare($conn, $sql)) {
             mysqli_stmt_bind_param($stmt, "s", $username);
@@ -18,11 +22,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             if ($row = mysqli_fetch_assoc($result)) {
                 if (password_verify($password, $row['password'])) {
+<<<<<<< HEAD
+=======
+                    // Gegevens kloppen, start de sessie
+>>>>>>> 496602a618a5f9ab4793d91ce15abd3a1c403d70
                     $_SESSION['loggedin'] = true;
                     $_SESSION['id'] = $row['id'];
                     $_SESSION['username'] = $row['username'];
                     
+<<<<<<< HEAD
                     header("location: ../HTML/homepage.php");
+=======
+                    // Automatisch doorsturen naar de homepage
+                    header("location: homepage.php");
+>>>>>>> 496602a618a5f9ab4793d91ce15abd3a1c403d70
                     exit;
                 } else {
                     $error = "Ongeldig wachtwoord.";
@@ -37,6 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,5 +105,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p>© 2026 Team GeenIdee. All rights reserved.</p>
         </div>
     </footer>
+=======
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inloggen</title>
+</head>
+<body>
+    <h2>Inloggen</h2>
+    <p style="color:red;"><?php echo $error; ?></p>
+    <form method="POST" action="">
+        <label>Gebruikersnaam:</label><br>
+        <input type="text" name="username" required><br><br>
+        
+        <label>Wachtwoord:</label><br>
+        <input type="password" name="password" required><br><br>
+        
+        <input type="submit" value="Inloggen">
+    </form>
+    <p>Nog geen account? <a href="register.php">Registreer hier</a>.</p>
+>>>>>>> 496602a618a5f9ab4793d91ce15abd3a1c403d70
 </body>
 </html>
