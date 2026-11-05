@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 $servername = "localhost"; // Omdat script en database op dezelfde server staan[cite: 5]
 $username = "db_104081";
-$password = "Fatih6_6!";
+$password = "kaas!_!!66";
 $dbname = "104081_programm2";
 
 // Maak verbinding via MySQLi
