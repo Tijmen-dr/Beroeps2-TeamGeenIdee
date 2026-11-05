@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +11,24 @@
 <body>
     <header>
         <div class="header">
-         <a href="homepage.html"> <img src="../images/logoPlaceholder.png" alt="websiteLogo"></a>
-         <button class="inlogButton" onclick="location.href='inloggen.html'">Inloggen</button>
+         <a href="homepage.php"> <img src="../images/logoPlaceholder.png" alt="websiteLogo"></a>
+         
+         <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+             <!-- Als je bent ingelogd: toont jouw gebruikersnaam, klik = uitloggen -->
+             <button class="inlogButton" onclick="location.href='../include/logout.php'" title="Klik om uit te loggen">
+                 👤 <?php echo htmlspecialchars($_SESSION['username']); ?>
+             </button>
+         <?php else: ?>
+             <!-- Als je NIET bent ingelogd: toont de inlogknop -->
+             <button class="inlogButton" onclick="location.href='../include/login.php'">Inloggen</button>
+         <?php endif; ?>
+
     </div>
 
     <div class="categorieen">
-        <div class="navButton" onclick="location.href='homepage.html'">Homepage</div>
+        <div class="navButton" onclick="location.href='homepage.php'">Homepage</div>
         <div class="navButton" onclick="location.href='recepten.html'">Recepten</div>
-        <div class="navButton noRightBorder" onclick="location.href='homepage.html'">Recept uploaden</div>
+        <div class="navButton noRightBorder" onclick="location.href='recepten.html'">Recept uploaden</div>
     </div>
 
     </header>
