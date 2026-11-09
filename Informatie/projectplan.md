@@ -214,15 +214,25 @@ In dit onderdeel beschrijf je hoe jullie het project technisch aanpakken. Je leg
 
 Gebruik de volgende punten als houvast: 
 
-Programmeertalen: Wat gebruik je voor het front-end (bijv. HTML, CSS, JavaScript)? 
+Programmeertalen: Wat gebruik je voor het front-end (bijv. HTML, CSS, JavaScript)?
+
+De programmeertalen zijn html, css en javascript. (en php)
 
 Frameworks en tools: Werk je met bijvoorbeeld Bootstrap, Figma, of Visual Studio Code? 
 
+Visual studio code en gebruik van figma voor wireframes en andere images.
+
 Browsers & apparaten: Waar moet de website goed op werken (bijv. Chrome, Safari, museumschermen)? 
+
+Zou op elke browser kunnen werken.
 
 Beveiliging: Is het project offline? Moet je rekening houden met veiligheid, of bijvoorbeeld HTTPS? 
 
+Het project staat online.
+
 Back-up: Waar sla je je werk op en hoe voorkom je dat je iets kwijtraakt? (Bijv. GitHub, OneDrive) 
+
+We slaan al onze bestanden op in github.
 
 
 ## 5. Oplevering
@@ -231,16 +241,26 @@ In deze paragraaf leg je uit hoe en wanneer het eindproduct wordt opgeleverd. Ge
 
 Beantwoord hierbij kort de volgende punten: 
 
-Deadline: Wanneer is het project klaar? 
+Deadline: Wanneer is het project klaar? e
+
+Het doel was om het project vrijdag 6 november af te hebben (gelukt)
 
 Toegang: Deel je de website via een link of wordt het lokaal geleverd? 
 
+We delen de website van ons project via een link
+
 Broncode: Komt alles op GitHub te staan? Voeg de link naar de repo toe. 
+
+Ja, alle bestanden en fotos die we hebben gemaakt zijn in github
 
 Inloggegevens: Alleen als van toepassing – bijv. voor een CMS of adminomgeving. 
 
 Onderhoud: Is er iets afgesproken over updates of onderhoud na de oplevering? 
 
+Nee
+
 Presentatie: Hoe laat je het resultaat zien? Denk aan een live demo, korte presentatie of slides. 
+
+We gaan een demo laten zien van het applicatie
 
 Wees duidelijk en praktisch. Zo weet de opdrachtgever precies wat er opgeleverd wordt en hoe die ermee aan de slag kan. 
