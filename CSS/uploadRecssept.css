@@ -60,7 +60,11 @@ header{
     text-align: center;
     font-family: Impact, sans-serif;
     color:white;
+<<<<<<< HEAD
     text-shadow: 2px 0 #bacf69
+=======
+    text-shadow: 2px 0 #bacf69,
+>>>>>>> d56bdf353a8c0787431a2a7711ad17db7ba72473
 
 }
 
@@ -123,6 +127,7 @@ label{
 }
 #marginButton{
     margin-bottom: 25px;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -259,3 +264,6 @@ label{
     }
 
 }
+=======
+}
+>>>>>>> d56bdf353a8c0787431a2a7711ad17db7ba72473

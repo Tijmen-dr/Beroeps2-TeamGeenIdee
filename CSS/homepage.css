@@ -141,34 +141,38 @@ header{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 90px;
-    margin: 60px;
-    margin-top: 75px;
-    margin-bottom: 100px;
+    margin: 60px auto;
+    max-width: 1200px;
 }
 
 .infoDeel1{
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
     background-color: #93a354;
     width: 100%;
     height: 100%;
     font-size: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .infoDeel2{
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
     background-color: #93a354;
+<<<<<<< HEAD
     width: 100%;
     font-size: 20px;
+=======
+    width: 85%;
+    font-size: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+>>>>>>> d56bdf353a8c0787431a2a7711ad17db7ba72473
 }
 
 .footer{
@@ -188,6 +192,10 @@ header{
     font-size: 40px;
 }
 
+<<<<<<< HEAD
+=======
+/* Perfecte uitlijning voor het gebruikers-dropdownmenu */
+>>>>>>> d56bdf353a8c0787431a2a7711ad17db7ba72473
 .user-menu-container {
     position: relative;
     grid-column: 3;
@@ -226,6 +234,7 @@ header{
 .dropdown-content button:hover {
     background-color: #f0f4e3;
     color: #93a354;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -410,3 +419,6 @@ header{
     }
 
 }
+=======
+}
+>>>>>>> d56bdf353a8c0787431a2a7711ad17db7ba72473
