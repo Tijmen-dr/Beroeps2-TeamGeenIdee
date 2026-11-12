@@ -133,3 +133,127 @@ main {
 #inlogForm input[type="submit"]:hover {
     background-color: #7f8e47;
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+        min-height: 70px;
+    }
+
+    .header img {
+        height: 65px;
+    }
+
+    main {
+        padding: 25px 20px;
+    }
+
+    #inlogForm {
+        width: 90%;
+        min-width: 0;
+        max-width: 480px;
+        padding: 35px 25px;
+    }
+
+    #inlogForm h1 {
+        font-size: 30px;
+    }
+
+    #inlogForm label {
+        font-size: 18px;
+    }
+
+    #inlogForm form div {
+        font-size: 16px;
+    }
+
+    #inlogForm input[type="text"],
+    #inlogForm input[type="password"] {
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .footer {
+        min-height: 70px;
+    }
+
+    #featuredHeader {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        min-height: 65px;
+    }
+
+    .header a {
+        grid-column: 1;
+    }
+
+    .header img {
+        height: 55px;
+    }
+
+    main {
+        padding: 25px 15px;
+        align-items: center;
+    }
+
+    #inlogForm {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        padding: 25px 18px;
+        box-sizing: border-box;
+    }
+
+    #inlogForm h1 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    #inlogForm label {
+        font-size: 16px;
+    }
+
+    #inlogForm form div {
+        font-size: 14px;
+    }
+
+    #inlogForm input[type="text"],
+    #inlogForm input[type="password"] {
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    #inlogForm input[type="submit"] {
+        width: 100%;
+        height: 43px;
+        font-size: 15px;
+    }
+
+    #inlogForm a {
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        min-height: 65px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #featuredHeader {
+        font-size: 27px;
+    }
+
+}

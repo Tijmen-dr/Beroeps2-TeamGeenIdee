@@ -129,10 +129,13 @@ nav{
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(193, 213, 109, 0.7);
     background-color: rgba(181, 200, 102, 0.95);
+    cursor: pointer;
 }
 
-.recept img{
-    height: auto;
+.recept img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
     border-right: 2px solid #110e1e;
     border-bottom: 2px solid #110e1e;
     border-radius: 10px;
@@ -166,4 +169,256 @@ nav{
 
 .imgAndTitle h3{
     margin-left: 10px;
+}
+
+.favoriet-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 18px;
+    background-color: #e76f83;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.removeFavoriteButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.removeFavoriteButton:hover {
+    background-color: #c0392b;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+        min-height: 70px;
+    }
+
+    .header img {
+        height: 65px;
+    }
+
+    .inlogButton {
+        margin-right: 10px;
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .inlogButton img {
+        height: 60px;
+    }
+
+    .categorieen {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+
+    .navButton {
+        padding: 12px 5px;
+        font-size: 15px;
+    }
+
+    nav {
+        margin-top: 136px;
+    }
+
+    .sidebar {
+        width: 180px;
+        height: calc(100vh - 136px);
+        box-sizing: border-box;
+    }
+
+    .sidebar h1,
+    .sidebar h2,
+    .sidebar input {
+        margin-left: 10px;
+        max-width: 150px;
+    }
+
+    #receptHeader {
+        margin-left: 200px;
+        font-size: 28px;
+    }
+
+    .recepten {
+        margin-left: 180px;
+        padding: 15px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        box-sizing: border-box;
+    }
+
+    .recept {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        min-width: 0;
+    }
+
+    .recept img {
+        width: 100%;
+        height: 160px;
+        box-sizing: border-box;
+    }
+
+    .receptInfo {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    .receptInfo p {
+        font-size: 16px;
+    }
+
+    .categorie {
+        grid-column: 1;
+        grid-row: auto;
+        justify-self: start;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    /* HEADER */
+
+    .header {
+        grid-template-columns: 1fr auto;
+        min-height: 65px;
+    }
+
+    .header a {
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .header img {
+        height: 55px;
+    }
+
+    .inlogButton {
+        grid-column: 2;
+        margin-right: 10px;
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .inlogButton img {
+        height: 45px;
+    }
+
+    .categorieen {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navButton {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        font-size: 16px;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    nav {
+        position: static;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .sidebar h1,
+    .sidebar h2,
+    .sidebar input {
+        margin-left: 5px;
+        max-width: calc(100% - 10px);
+        box-sizing: border-box;
+    }
+
+    #receptHeader {
+        margin: 20px 15px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .recepten {
+        margin-left: 0;
+        padding: 15px;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        box-sizing: border-box;
+    }
+
+    .recept {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .recept img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    .receptInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    .receptInfo p {
+        font-size: 16px;
+    }
+
+    .imgAndTitle h3 {
+        margin-left: 5px;
+    }
+
+    .categorie {
+        grid-column: 1;
+        grid-row: auto;
+        justify-self: start;
+        align-self: start;
+        margin-top: 10px;
+    }
+
+    .favoriet-btn,
+    .removeFavoriteButton {
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .favoriet-btn {
+        margin: 15px 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
 }
